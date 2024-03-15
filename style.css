@@ -1,9 +1,10 @@
 :root {
   --bg-body: #f5f5f5;
   --bg-product-card: #fff;
-  --bg-btn: #485fb9;
+  --bg-btn: #465db9;
   --text-heading: black;
   --text-regular: #7e7e7e;
+  --hover: #465db9ad;
 }
 
 *,
@@ -176,6 +177,10 @@ main {
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
+}
+
+.add-to-cart:hover {
+  background-color: var(--hover);
 }
 
 .add-to-cart-btn {
