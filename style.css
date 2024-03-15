@@ -1,0 +1,183 @@
+:root {
+  --bg-body: #f5f5f5;
+  --bg-product-card: #fff;
+  --bg-btn: #485fb9;
+  --text-heading: black;
+  --text-regular: #7e7e7e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: var(--bg-body);
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  margin: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  justify-content: center;
+}
+
+.gradient {
+  height: 30%;
+  width: 100%;
+  background-color: transparent;
+  bottom: 0;
+  position: absolute;
+  background-image: linear-gradient(to top, white 10%, transparent);
+}
+
+.card {
+  border-radius: 20px;
+  background-color: var(--bg-product-card);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--bg-product-card);
+  opacity: 0.5;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.picture {
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.photoCredit {
+  position: absolute;
+  bottom: 0.5rem;
+  color: var(--text-regular);
+  font-size: 0.75rem;
+  margin: 0.5rem;
+}
+
+.text,
+.shopping {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.shoe-details {
+  color: var(--text-regular);
+}
+
+.shopping {
+  background-color: var(--bg-body);
+  margin: 0.5rem;
+}
+
+.priceTag {
+  background-color: var(--bg-product-card);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+}
+
+.select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--text-regular);
+}
+
+.selectSize {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.selectSize_option,
+.selectQuantity_option {
+  width: 50px;
+  height: 20px;
+  margin: auto 1rem;
+}
+
+.selectQuantity {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.selectQuantity_text {
+  margin-right: 0.5rem;
+}
+
+.color {
+  color: var(--text-regular);
+  display: flex;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.blue {
+  background-color: #1f55af;
+}
+
+.red {
+  background-color: #d94941;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.add-to-cart {
+  all: unset;
+  background-color: var(--bg-btn);
+  color: var(--bg-product-card);
+  padding: 1rem;
+  margin: 1rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.add-to-cart-btn {
+  all: unset;
+}
+
+.green-black {
+  background: linear-gradient(90deg, #979737 50%, #000000 50%);
+}
+
+.blue-black {
+  background: linear-gradient(90deg, #578bd8 50%, #000000 50%);
+}
+
+.pink-black {
+  background: linear-gradient(90deg, #d4668e 50%, #000000 50%);
+}
+
+.red-white {
+  background: linear-gradient(90deg, #ce3329 50%, #ffffff 50%);
+}
+
+.black-white {
+  background: linear-gradient(90deg, #000000 50%, #ffffff 50%);
+}
