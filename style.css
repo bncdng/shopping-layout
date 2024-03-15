@@ -31,7 +31,7 @@ main {
 }
 
 .card {
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background-color: var(--bg-product-card);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 1rem;
@@ -49,7 +49,7 @@ main {
 
 .badge {
   position: absolute;
-  top: 1rem;
+  top: 0;
   right: 1rem;
   background-color: var(--bg-product-card);
   opacity: 0.5;
@@ -58,7 +58,7 @@ main {
 }
 
 .picture {
-  border-radius: 20px 20px 0 0;
+  border-radius: 1.25rem 1.25rem 0 0;
   overflow: hidden;
   position: relative;
 }
@@ -129,8 +129,8 @@ main {
 }
 
 .circle {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   border-radius: 50%;
   margin: 0 5px;
 }
